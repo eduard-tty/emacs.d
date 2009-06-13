@@ -7,6 +7,7 @@
 (setq-default truncate-partial-width-windows nil)
 
 (tool-bar-mode -1)
+(menu-bar-mode 0)
 (set-scroll-bar-mode 'right)   
 (setq scroll-step 1)                ; scroll one line when moving past top or bottom
 (setq visible-bell t)
