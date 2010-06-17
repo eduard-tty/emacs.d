@@ -5,9 +5,11 @@
   ;; If there is more than one, they won't work right.
  '(column-number-mode t)
  '(cua-mode t nil (cua-base))
+ '(indicate-empty-lines t)
  '(menu-bar-mode t)
  '(save-place t nil (saveplace))
  '(show-paren-mode t)
+ '(size-indication-mode t)
  '(speedbar-frame-parameters (quote ((minibuffer) (width . 20) (border-width . 0) (menu-bar-lines . 0) (tool-bar-lines . 0) (unsplittable . t) (set-background-color "black"))))
  '(text-mode-hook (quote (turn-on-auto-fill text-mode-hook-identify)))
  '(uniquify-buffer-name-style (quote forward) nil (uniquify)))
