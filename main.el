@@ -7,8 +7,10 @@
 (load "general.el")
 (load "colors.el")
 (load "markdown.el")
-(load "haskell.el")
+; (load "haskell.el")
 ; (load "perlysense.el")
 
 (require 'linum)
 (global-linum-mode 1)               ; line numbers everywhere
+
+(add-hook 'org-mode-hook 'turn-on-font-lock)
