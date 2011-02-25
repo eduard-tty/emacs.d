@@ -10,6 +10,7 @@
 (load "markdown.el")
 ; (load "haskell.el")
 ; (load "perlysense.el")
+(load "nvb.el")
 
 (require 'linum)
 (global-linum-mode 1)               ; line numbers everywhere
