@@ -8,7 +8,9 @@
 
 (tool-bar-mode -1)
 (menu-bar-mode 1)
-(set-scroll-bar-mode 'right)   
+(set-scroll-bar-mode 'right)
 (setq scroll-step 1)                ; scroll one line when moving past top or bottom
 (setq visible-bell t)
 
+(require 'linum)
+(global-linum-mode 1)               ; line numbers everywhere

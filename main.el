@@ -14,11 +14,11 @@
 (load "nvb.el")
 (load "slime.el")
 
-(require 'linum)
-(global-linum-mode 1)               ; line numbers everywhere
 
 (add-hook 'org-mode-hook 'turn-on-font-lock)
 
+
+;; This is a work in progress
 (require 'org-install)
 (require 'org-mobile)
 ;; Set to the location of your Org files on your local system
