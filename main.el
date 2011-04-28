@@ -7,10 +7,6 @@
 
 (load "general.el")
 (load "colors.el")
-; aalto-light arjen bharadwaj clarity-and-beauty cooper-light2
-; dark-laptop gtk-ide high-contrast linh-dang-dark scintilla sitaram-nt
-; standard vim-colors xp
-(color-theme-standard)
 
 (load "markdown.el")
 ; (load "haskell.el")
