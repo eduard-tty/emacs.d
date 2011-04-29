@@ -12,7 +12,7 @@
 ; (load "haskell.el")
 ; (load "perlysense.el")
 (load "nvb.el")
-(load "slime.el")
+;(load "slime.el")
 
 
 (add-hook 'org-mode-hook 'turn-on-font-lock)
