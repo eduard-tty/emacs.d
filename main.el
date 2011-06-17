@@ -2,18 +2,17 @@
 (load custom-file 'noerror)
 
 (add-to-list 'load-path "~/emacs.d/lisp")
-(add-to-list 'load-path "~/emacs.d/my")
 (add-to-list 'load-path "~/emacs.d/org/lisp")
 
-(load "general.el")
-(load "colors.el")
+(load "~/emacs.d/my/general.el")
+(load "~/emacs.d/my/colors.el")
+(load "~/emacs.d/lisp/markdown.el")
+(load "~/emacs.d/my/nvb.el")
+(load "~/emacs.d/my/myerlang.el")
 
-(load "markdown.el")
-; (load "haskell.el")
-; (load "perlysense.el")
-(load "nvb.el")
-;(load "slime.el")
-
+; (load "~/emacs.d/lisp/haskell.el")
+; (load "~/emacs.d/lisp/perlysense.el")
+; (load "slime.el")
 
 (add-hook 'org-mode-hook 'turn-on-font-lock)
 
