@@ -35,3 +35,6 @@
     )
   )
 )
+
+
+(global-set-key "\C-x\M-b" 'buffer-menu)
