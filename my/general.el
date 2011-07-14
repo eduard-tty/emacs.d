@@ -37,4 +37,5 @@
 )
 
 
-(global-set-key "\C-x\M-b" 'buffer-menu)
+(global-set-key "\C-x\C-b" 'buffer-menu)
+(global-set-key "\C-x\M-b" 'list-buffers)
