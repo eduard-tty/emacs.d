@@ -8,7 +8,8 @@
 
 (tool-bar-mode -1)
 (menu-bar-mode 1)
-(set-scroll-bar-mode 'right)
+; (set-scroll-bar-mode 'right)            
+(set-scroll-bar-mode nil)                   ; to resize with whole bar
 (setq scroll-step 1)                        ; scroll one line when moving past top or bottom
 (setq visible-bell t)
 
