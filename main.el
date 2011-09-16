@@ -9,6 +9,7 @@
 (load "~/emacs.d/lisp/markdown.el")
 (load "~/emacs.d/my/nvb.el")
 (load "~/emacs.d/my/perl.el")
+(load "~/emacs.d/lisp/tt-mode.el")
 
 
 
@@ -18,6 +19,8 @@
 ; (load "slime.el")
 
 (add-hook 'org-mode-hook 'turn-on-font-lock)
+(add-to-list 'auto-mode-alist '("\\.tt$" . tt-mode))
+
 
 
 ;; This is a work in progress
