@@ -7,7 +7,7 @@
 (load "~/emacs.d/my/general.el")
 (load "~/emacs.d/my/colors.el")
 (load "~/emacs.d/lisp/markdown.el")
-(load "~/emacs.d/my/perl.el")
+; (load "~/emacs.d/my/perl.el")
 (load "~/emacs.d/my/new-nvb.el")
 (load "~/emacs.d/lisp/tt-mode.el")
 
