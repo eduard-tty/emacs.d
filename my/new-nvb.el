@@ -1,5 +1,11 @@
 (defconst nvb-root "/home/eduard/projects/nvb/NVB/")
-(add-to-list 'load-path (concat nvb-root "Misc/emacs/" ) )
-(load "nvb-init.el")
-
+(let ((nvb-dir "Misc/emacs/"))
+  (if 
+    (file-exists-p (concat nvb-root nvb-dir "nvb-init.el" ) )
+    (progn
+      (add-to-list 'load-path (concat nvb-root nvb-dir ) )
+      (load "nvb-init.el" )
+      )
+    )
+)
 
