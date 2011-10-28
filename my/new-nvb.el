@@ -9,3 +9,5 @@
     )
 )
 
+(global-set-key (kbd "<f9>" ) 'ediff-trees-examine-next)
+(setq ediff-split-window-function 'split-window-horizontally)
