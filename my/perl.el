@@ -11,4 +11,5 @@
 
 (add-hook 'perl-mode-hook 'my-perl-mode-hook)
 (add-hook 'cperl-mode-hook 'my-perl-mode-hook)
+(set 'cperl-indent-level 4)
 
