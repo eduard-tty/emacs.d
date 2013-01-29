@@ -9,6 +9,10 @@
 (load "~/emacs.d/lisp/markdown.el")
 ; (load "~/emacs.d/my/perl.el")
 (load "~/emacs.d/my/new-nvb.el")
+(when (fboundp 'windmove-default-keybindings)
+      (windmove-default-keybindings))
+
+
 (maximize-window)   ;(run-with-idle-timer 0.1 nil 'maximize-window)
 
 (load "~/emacs.d/lisp/tt-mode.el")
