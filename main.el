@@ -24,12 +24,7 @@
 (when (fboundp 'windmove-default-keybindings)
       (windmove-default-keybindings))
 
-
-(maximize-window)   ;(run-with-idle-timer 0.1 nil 'maximize-window)
-
 (load "~/emacs.d/lisp/tt-mode.el")
-
-
 
 ; (load "~/emacs.d/my/myerlang.el")
 ; (load "~/emacs.d/lisp/haskell.el")
@@ -43,6 +38,9 @@
 (setq ido-enable-flex-matching t)
 (setq ido-everywhere t)
 (ido-mode 1)
+
+(put 'narrow-to-region 'disabled nil)
+
 
 ;; This is a work in progress
 (require 'org-install)
