@@ -1,13 +1,12 @@
-(set-default-font '"-unknown-Inconsolata-normal-normal-normal-*-18-*-*-*-m-0-iso10646-1")
-
-;; use package manager instead
-;; https://github.com/sellout/emacs-color-theme-solarized.git
-(setq load-path
-      (cons "/home/eduard/emacs-git/emacs-color-theme-solarized/" load-path))
-(require 'color-theme-solarized)
-(color-theme-solarized-light)
+(set-default-font '"-unknown-Inconsolata-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1")
 
 (require 'linum)
-(global-linum-mode 1)                       ; line numbers everywhere
+(global-linum-mode 1)
+
+(require 'color-theme)
+(color-theme-initialize)
+
+(require 'color-theme-solarized)
+(color-theme-solarized-light)
 
 (provide 'appearance)

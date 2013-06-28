@@ -24,58 +24,11 @@
  '(transient-mark-mode t)
  )
 
-(setq-default truncate-partial-width-windows nil)
-
-(which-function-mode t)
-(defalias 'yes-or-no-p 'y-or-n-p)
-
-;; Viper mode stuff
-(setq viper-mode t)
-(require 'viper)
-
-(setq compilation-scroll-output t)
-;(require 'inf-haskell)
-
-;; js2-mode
-(autoload 'js2-mode "js2" nil t)
-(add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
-
-;; remember mode
-(org-remember-insinuate)
-(setq org-directory "~/Dropbox/")
-(setq org-default-notes-file (concat org-directory "/notes.org"))
-
-;; yasnippet
-(require 'yasnippet)
-
-(setq next-error-highlight 5)
-
-(put 'upcase-region 'disabled nil)
-
-(defun load-twh ()
-  "Load the twh environment"
-  (interactive)
-  (require 'twh)
-  )
-
-;; use package for this
-;(setq load-path
-;      (cons "/home/marius/git/tt-mode/" load-path))
-;(autoload 'tt-mode "tt-mode")
-;(setq auto-mode-alist
-;      (append '(("\\.tt$" . tt-mode))  auto-mode-alist ))
-
-(put 'narrow-to-region 'disabled nil)
-(setq inhibit-startup-message t)
-
-(add-to-list 'load-path (concat user-emacs-directory
-                                (convert-standard-filename "contrib/")))
-(add-to-list 'load-path (concat user-emacs-directory
-                                (convert-standard-filename "my/")))
-
-(require 'navigation)
-(require 'appearance)
-(require 'perl)
-(require 'misc)
-(require 'keymap)
+(add-to-list 'load-path (concat user-emacs-directory (convert-standard-filename "my/")))
 (require 'elpa)
+
+
+;; (add-to-list 'load-path "/home/eduard/emacs-git/eduard/")
+;; (load "/home/eduard/emacs-git/eduard/after_elpa_init.el")
+;; (color-theme-solarized-dark)
+(add-hook 'after-init-hook (lambda () (load "/home/eduard/emacs-git/eduard/after_elpa_init.el")))
