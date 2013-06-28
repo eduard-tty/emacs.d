@@ -78,4 +78,4 @@
 (require 'perl)
 (require 'misc)
 (require 'keymap)
-    
+(require 'elpa)
