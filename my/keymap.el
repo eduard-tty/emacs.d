@@ -36,4 +36,8 @@
 ;; git stuff
 (global-set-key "\C-cv" 'magit-status)
 
+;; Other
+(global-set-key (kbd "<f5>") 'revert-buffer)
+
 (provide 'keymap)
+
