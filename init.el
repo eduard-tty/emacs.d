@@ -6,3 +6,4 @@
 (require 'elpa)
 
 (add-hook 'after-init-hook (lambda () (load "/home/eduard/emacs-git/eduard/after_elpa_init.el")))
+(put 'scroll-left 'disabled nil)
