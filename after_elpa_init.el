@@ -47,4 +47,4 @@
 (require 'perl)
 (require 'misc)
 (require 'keymap)
-
+(require 'ox-reveal)
