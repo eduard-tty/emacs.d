@@ -6,7 +6,6 @@
 
 ;; viper
 (global-set-key "\C-q"  'viper-intercept-ESC-key)
-(global-set-key (kbd "<f12>") 'toggle-viper-mode)
 
 ;; Perl stuff
 (global-set-key "\C-c\C-l" 'perl-sub-list)
